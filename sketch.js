@@ -11,7 +11,7 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
     
-    thor = new Thor(100, 100, 100, 250);
+    thor = new Thor(200, 180, 100, 250);
     hammer = new Hammer(200, 120, 80, 80);
     chain = new Chain(thor.body, hammer.body);
 }
